@@ -24,13 +24,52 @@
         <button data-toggle="modal" data-target="#myModal" class="btn btn-primary">Instructions</button>
         <br><br>
         <button id="play_btn" onclick="playGame()" class="btn btn-success">Play Game!</button>
+        <button id="restart_btn" class="btn btn-danger" onclick="restart()">Restart</button>
         <br>
         <h3 class="btn btn-warning" id="status">Status: </h3>
         <br>
+        <br>
         <div id="canvas"></div>
+        <br>
+        <br>
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">&times;</button>
+                        <h3 id="inst_heading">Instructions</h3>
+                    </div>
+                    <div class="modal-body">
+                        <ol type="1">
+                            <li>First, Keep your laptop screen straight</li>
+                            <li>Move yourself approximately 3-4 feet away from your laptop</li>
+                            <li>Move your right wrist in ascending or decending order, a red dot<br>
+                                should appear on your wrist</li>
+                            <li>Now press the Play Button, and again move 3-4 feet away from the laptop</li>
+                            <li>The red paddel is your paddel, it will move according to the<br>
+                                position of your wrist</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
     </center>
-
-    <script src="main.js"></script>
+    <script src="main.js">
+    </script>
 </body>
 
 </html>
+
+<!--
+    <h3 id="inst_heading">Instructions</h3>
+            <br>
+            <hr>
+            <br>
+            <p >First, Keep your laptop screen straight</p>
+            <p >Move yourself approximately 3-4 feet away from your laptop</p>
+            <p >Move your right wrist in ascending or decending order, a red dot<br>
+            should appear on your wrist</p>
+            <p >Now press the Play Button, and again move 3-4 feet away from the laptop</p>
+            <p >The red paddel is your paddel, it will move according to the<br>
+            position of your wrist</p>
+-->
